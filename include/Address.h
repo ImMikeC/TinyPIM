@@ -1,3 +1,5 @@
+//TinyPIM (c) 1999 Pablo Halpern. File Address.h
+
 #ifndef Address_dot_h
 #define Address_dot_h 1
 
@@ -7,6 +9,7 @@ class Address
     public:
     //Constructor
         Address();
+
     //Field accessors
     const char* lastname() const { return lastname_; }
     void lastname(const char*);

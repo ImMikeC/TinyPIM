@@ -13,12 +13,15 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Address.h" />
+		<Unit filename="src/Address.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
